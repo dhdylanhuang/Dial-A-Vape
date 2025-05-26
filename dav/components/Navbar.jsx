@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { assets, CartIcon, BagIcon } from "@/assets/assets";
+import { assets, CartIcon, BagIcon, HomeIcon, BoxIcon } from "@/assets/assets";
 import Link from "next/link"
 import { useAppContext } from "@/context/AppContext";
 import Image from "next/image";
@@ -64,6 +64,12 @@ const Navbar = () => {
           user 
           ? <>
           <UserButton>
+            <UserButton.MenuItems>
+              <UserButton.Action label = "Home" labelIcon={<HomeIcon />} onClick={() => router.push('/home')} />
+            </UserButton.MenuItems>
+            <UserButton.MenuItems>
+              <UserButton.Action label = "Products" labelIcon={<BoxIcon />} onClick={() => router.push('/all-products')} />
+            </UserButton.MenuItems>
             <UserButton.MenuItems>
               <UserButton.Action label = "Cart" labelIcon={<CartIcon />} onClick={() => router.push('/cart')} />
             </UserButton.MenuItems>
