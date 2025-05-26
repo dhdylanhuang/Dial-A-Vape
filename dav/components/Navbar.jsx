@@ -60,10 +60,23 @@ const Navbar = () => {
 
       <div className="flex items-center md:hidden gap-3">
         {isSeller && <button onClick={() => router.push('/seller')} className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>}
-        <button className="flex items-center gap-2 hover:text-gray-900 transition">
-          <Image onClick={openSignIn} src={assets.user_icon} alt="user icon" />
-          Account
-        </button>
+        {
+          user 
+          ? <>
+          <UserButton>
+            <UserButton.MenuItems>
+              <UserButton.Action label = "Cart" labelIcon={<CartIcon />} onClick={() => router.push('/cart')} />
+            </UserButton.MenuItems>
+            <UserButton.MenuItems>
+              <UserButton.Action label = "My Orders" labelIcon={<BagIcon />} onClick={() => router.push('/my-orders')} />
+            </UserButton.MenuItems>
+          </UserButton>
+          </> 
+          :  <button onClick={openSignIn} className="flex items-center gap-2 hover:text-gray-900 transition">
+              <Image src={assets.user_icon} alt="user icon" />
+              Account
+            </button>
+        }
       </div>
     </nav>
   );
