@@ -14,16 +14,13 @@ async function connectDB() {
     if (!cached.promise) {
         const opts = {
             bufferCommands: false,
-            useNewUrlParser: true,
-            useUnifiedTopology: true, 
         };
 
         console.log("🔍 Mongo URI:", JSON.stringify(process.env.MONGODB_URI));
 
-        cached.promise = mongoose.connect('${process.env.MONGODB_URI}/dav', opts).then((mongoose) => {
+        cached.promise = mongoose.connect('${process.env.MONGODB_URI}/dav', opts).then(mongoose => {
             return mongoose;
-        }
-        );
+        });
     }
     cached.conn = await cached.promise;
     return cached.conn;
