@@ -2,7 +2,6 @@
 import React from "react";
 import HeaderSlider from "@/components/HeaderSlider";
 import HomeProducts from "@/components/HomeProducts";
-import Banner from "@/components/Banner";
 import NewsLetter from "@/components/NewsLetter";
 import HomeShopping from "@/components/HomeShopping";
 import Navbar from "@/components/Navbar";
@@ -16,7 +15,6 @@ const Home = () => {
         <HeaderSlider />
         <HomeProducts />
         <HomeShopping />
-        <Banner />
         <NewsLetter />
       </div>
       <Footer />
