@@ -144,137 +144,134 @@ export const productsDummyData = [
     "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
     "price": 499.99,
     "offerPrice": 399.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
+    image: [
+            assets.vape1
     ],
-    "category": "Earphone",
+    "category": "Vape",
     "date": 1738667236865,
     "__v": 0
   },
   {
     "_id": "67a1f52e3f34a77b6dde914a",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Bose QuietComfort 45",
-    "description": "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
+    "name": "Transformer Model",
+    "description": "Blow big clouds",
     "price": 429.99,
     "offerPrice": 329.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/m16coelz8ivkk9f0nwrz.webp"
+    image: [
+            assets.vape1
     ],
-    "category": "Headphone",
+    "category": "Vape",
     "date": 1738667310300,
     "__v": 0
   },
   {
     "_id": "67a1f5663f34a77b6dde914c",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Galaxy S23",
-    "description": "The Samsung Galaxy S23 offers an all-encompassing mobile experience with its advanced AMOLED display, offering vibrant visuals and smooth interactions. Equipped with top-of-the-line fitness tracking features and cutting-edge technology, this phone delivers outstanding performance. With powerful hardware, a sleek design, and long battery life, the S23 is perfect for those who demand the best in mobile innovation.",
+    "name": "Nasty Vape",
+    "description": "Portable and easy to use, the Nasty Vape is perfect for on-the-go vaping. It features a sleek design, long-lasting battery, and a variety of flavors to choose from. Whether you're a beginner or an experienced vaper, this device delivers a satisfying experience with every puff.",
     "price": 899.99,
     "offerPrice": 799.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/xjd4eprpwqs7odbera1w.webp"
+    image: [
+            assets.vape1
     ],
-    "category": "Smartphone",
+    "category": "Vape",
     "date": 1738667366224,
     "__v": 0
   },
   {
     "_id": "67a1f5993f34a77b6dde914e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Garmin Venu 2",
-    "description": "The Garmin Venu 2 smartwatch blends advanced fitness tracking with sophisticated design, offering a wealth of features such as heart rate monitoring, GPS, and sleep tracking. Built with a 24-hour battery life, this watch is ideal for fitness enthusiasts and anyone looking to enhance their daily lifestyle. With a stunning AMOLED display and customizable watch faces, the Venu 2 combines technology with style seamlessly.",
+    "name": "E-Vape Pro",
+    "description": "The E-Vape Pro is designed for the discerning vaper who values quality and performance. With adjustable wattage, temperature control, and a variety of coil options, this device allows for a customizable vaping experience. Its sleek design and durable build make it a perfect companion for both casual and serious vapers.",
     "price": 399.99,
     "offerPrice": 349.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/hdfi4u3fmprazpnrnaga.webp"
+    image: [
+            assets.vape1
     ],
-    "category": "Earphone",
+    "category": "Vape",
     "date": 1738667417511,
     "__v": 0
   },
   {
     "_id": "67a1f5ef3f34a77b6dde9150",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "PlayStation 5",
+    "name": "Pablo Snus",
     "description": "The PlayStation 5 takes gaming to the next level with ultra-HD graphics, a powerful 825GB SSD, and ray tracing technology for realistic visuals. Whether you're into high-action games or immersive storytelling, the PS5 delivers fast loading times, seamless gameplay, and stunning visuals. It's a must-have for any serious gamer looking for the ultimate gaming experience.",
     "price": 599.99,
     "offerPrice": 499.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
+    image: [
+            assets.snus1
     ],
-    "category": "Accessories",
+    "category": "Snus",
     "date": 1738667503075,
     "__v": 0
   },
   {
     "_id": "67a1f70c3f34a77b6dde9156",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Canon EOS R5",
-    "description": "The Canon EOS R5 is a game-changing mirrorless camera with a 45MP full-frame sensor, offering ultra-high resolution and the ability to shoot 8K video. Whether you're capturing professional-quality stills or cinematic video footage, this camera delivers exceptional clarity, speed, and color accuracy. With advanced autofocus and in-body stabilization, the R5 is ideal for photographers and videographers alike.",
+    "name": "Nordic Spirits Snus",
+    "description": "Nordic Spirits Snus offers a unique blend of flavors and a satisfying nicotine experience. Made with high-quality ingredients, this snus is perfect for those who appreciate a refined taste. Whether you're looking for a quick pick-me-up or a relaxing moment, Nordic Spirits delivers a smooth and enjoyable snus experience.",
     "price": 4199.99,
     "offerPrice": 3899.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/r5h370zuujvrw461c6wy.webp"
+    image: [
+            assets.snus1
     ],
-    "category": "Camera",
+    "category": "Snus",
     "date": 1738667788883,
     "__v": 0
   },
   {
     "_id": "67a1f7c93f34a77b6dde915a",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "MacBook Pro 16",
-    "description": "The MacBook Pro 16, powered by Apple's M2 Pro chip, offers outstanding performance with 16GB RAM and a 512GB SSD. Whether you're editing high-resolution video, developing software, or multitasking with ease, this laptop can handle the toughest tasks. It features a stunning Retina display with True Tone technology, making it a top choice for professionals in creative industries or anyone who demands premium performance in a portable form.",
+    "name": "Arctic Fox Snus",
+    "description": "Arctic Fox Snus is known for its refreshing mint flavor and high-quality tobacco. It provides a cool, invigorating sensation with every use, making it a favorite among snus enthusiasts. Whether you're looking for a quick energy boost or a flavorful experience, Arctic Fox delivers a satisfying and enjoyable snus option.",
     "price": 2799.99,
     "offerPrice": 2499.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
+     image: [
+            assets.snus1
     ],
-    "category": "Laptop",
+    "category": "Snus",
     "date": 1738667977644,
     "__v": 0
   },
   {
     "_id": "67a1f8363f34a77b6dde915c",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Sony WF-1000XM5",
-    "description": "Sony WF-1000XM5 true wireless earbuds deliver immersive sound with Hi-Res Audio and advanced noise cancellation technology. Designed for comfort and quality, they provide a stable, snug fit for a secure listening experience. Whether you're working out or traveling, these earbuds will keep you connected with the world around you while enjoying rich, clear sound.",
+    "name": "ON!",
+    "description": "ON! Snus is a convenient and discreet option for those who enjoy snus without the need for spitting. With a variety of flavors and strengths, ON! offers a satisfying nicotine experience in a slim, easy-to-use pouch. Perfect for on-the-go use, this snus provides a quick and enjoyable way to get your nicotine fix.",
     "price": 349.99,
     "offerPrice": 299.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/e3zjaupyumdkladmytke.webp"
+     image: [
+            assets.snus1
     ],
-    "category": "Earphone",
+    "category": "Snus",
     "date": 1738668086331,
     "__v": 0
   },
   {
     "_id": "67a1f85e3f34a77b6dde915e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Projector 4k",
-    "description": "The Samsung 4K Projector offers an immersive cinematic experience with ultra-high-definition visuals and realistic color accuracy. Equipped with a built-in speaker, it delivers rich sound quality to complement its stunning 4K resolution. Perfect for movie nights, gaming, or presentations, this projector is the ultimate choice for creating an at-home theater experience or professional setting.",
+    "name": "Nasty Juice Salts",
+    "description": "Nasty Juice Salts are designed for vapers who prefer a smooth and satisfying nicotine hit. With a range of delicious flavors, these nicotine salts provide a quick and effective way to enjoy your vaping experience. Whether you're looking for fruity, minty, or classic tobacco flavors, Nasty Juice Salts have something for everyone.",
     "price": 1699.99,
     "offerPrice": 1499.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/qqdcly8a8vkyciy9g0bw.webp"
+    image: [
+            assets.salts1
     ],
-    "category": "Accessories",
+    "category": "Salts",
     "date": 1738668126660,
     "__v": 0
   },
   {
     "_id": "67a1fa4b3f34a77b6dde9166",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "ASUS ROG Zephyrus G16",
-    "description": "The ASUS ROG Zephyrus G16 gaming laptop is powered by the Intel Core i9 processor and features an RTX 4070 GPU, delivering top-tier gaming and performance. With 16GB of RAM and a 1TB SSD, this laptop is designed for gamers who demand extreme power, speed, and storage. Equipped with a stunning 16-inch display, it's built to handle the most demanding titles and applications with ease.",
+    "name": "Geek Bar Salts",
+    "description": "Geek Bar Salts offer a premium vaping experience with a variety of flavors and a smooth nicotine delivery. These nicotine salts are perfect for those who enjoy a quick and satisfying vape without the harshness of traditional e-liquids. With their compact design and easy-to-use format, Geek Bar Salts are ideal for both beginners and experienced vapers.",
     "price": 2199.99,
     "offerPrice": 1999.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/wig1urqgnkeyp4t2rtso.webp"
+    image: [
+            assets.salts1
     ],
     "category": "Laptop",
     "date": 1738668619198,
