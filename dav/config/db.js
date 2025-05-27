@@ -18,7 +18,7 @@ async function connectDB() {
 
         console.log("🔍 Mongo URI:", JSON.stringify(process.env.MONGODB_URI));
 
-        cached.promise = mongoose.connect('${process.env.MONGODB_URI}/dav', opts).then(mongoose => {
+        cached.promise = mongoose.connect(`${process.env.MONGODB_URI}/dav`, opts).then(mongoose => {
             return mongoose;
         });
     }
