@@ -15,8 +15,10 @@ async function connectDB() {
         const opts = {
             bufferCommands: false,
             useNewUrlParser: true,
-            useUnifiedTopology: true,
+            useUnifiedTopology: true, 
         };
+
+        console.log("🔍 Mongo URI:", JSON.stringify(process.env.MONGODB_URI));
 
         cached.promise = mongoose.connect('${process.env.MONGODB_URI}/dav', opts).then((mongoose) => {
             return mongoose;
